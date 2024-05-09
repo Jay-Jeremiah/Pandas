@@ -6,3 +6,5 @@ a = ["Harry","Atom","Kevin"]
 labels = pd.Series(a, index = ["x","y","z"])
 
 print(labels)
+
+print(labels["x"])
